@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Exclusive 18+ Content</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <style>
+    body {margin:0; font-family:Arial, sans-serif; background:#0d0d12; color:#fff; display:flex; align-items:center; justify-content:center; min-height:100vh;}
+    .card {background:#181820; padding:20px; border-radius:12px; max-width:400px; width:100%; text-align:center;}
+    h1 {font-size:24px;}
+    p {color:#ccc;}
+    input {width:100%; padding:12px; border-radius:8px; border:none; margin:10px 0; font-size:16px;}
+    button {background:#00c853; border:none; padding:12px; color:#fff; font-weight:bold; border-radius:8px; width:100%; cursor:pointer;}
+    button:hover {background:#00e676;}
+    .note {font-size:12px; color:#888; margin-top:8px;}
+  </style>
+</head>
+<body>
+
+<div class="card">
+  <h1>Are You 18+?</h1>
+  <p>Enter your email to unlock <strong>exclusive OnlyFans</strong> content from our top creators.</p>
+  
+  <form action="https://getform.io/f/your-form-id" method="POST" onsubmit="redirectAfterSubmit()">
+    <input type="email" name="email" placeholder="Your email address" required>
+    <button type="submit">Yes, I am 18+</button>
+    <div class="note">By continuing, you confirm you are 18 or older and agree to receive occasional updates.</div>
+  </form>
+</div>
+
+<script>
+const TARGET_URL = "https://onlyfans.com/your-creator"; // Заменить на свою ссылку
+
+function redirectAfterSubmit() {
+    setTimeout(() => {
+        window.location.href = TARGET_URL;
+    }, 500); // Редирект через 0.5 сек
+}
+</script>
+
+</body>
+</html>

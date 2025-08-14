@@ -3,39 +3,41 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Exclusive 18+ Content</title>
+  <title>Exclusive 18+ Access</title>
   <meta name="robots" content="noindex, nofollow" />
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #0d0d12;
+      background: linear-gradient(135deg, #0d0d12, #1a1a26);
       color: #fff;
       display: flex;
       align-items: center;
       justify-content: center;
       min-height: 100vh;
+      padding: 20px;
     }
     .card {
       background: #181820;
-      padding: 20px;
-      border-radius: 12px;
+      padding: 25px;
+      border-radius: 14px;
       max-width: 400px;
       width: 100%;
       text-align: center;
+      box-shadow: 0 0 20px rgba(0,0,0,0.6);
     }
-    h1 { font-size: 24px; }
-    p { color: #ccc; }
+    h1 { font-size: 26px; margin-bottom: 10px; }
+    p { color: #ccc; font-size: 15px; }
     input {
       width: 100%;
       padding: 12px;
       border-radius: 8px;
       border: none;
-      margin: 10px 0;
+      margin: 12px 0;
       font-size: 16px;
     }
     button {
-      background: #00c853;
+      background: #ff4081;
       border: none;
       padding: 12px;
       color: #fff;
@@ -43,8 +45,10 @@
       border-radius: 8px;
       width: 100%;
       cursor: pointer;
+      font-size: 16px;
+      transition: background 0.2s ease;
     }
-    button:hover { background: #00e676; }
+    button:hover { background: #ff5c9d; }
     .note {
       font-size: 12px;
       color: #888;
@@ -56,17 +60,17 @@
 
 <div class="card">
   <h1>Are You 18+?</h1>
-  <p>Enter your email to unlock <strong>exclusive OnlyFans</strong> content from our top creators.</p>
+  <p>Enter your email to unlock <strong>exclusive OnlyFans</strong> content from top US creators.</p>
   
   <form action="https://getform.io/f/aqoeomra" method="POST" onsubmit="redirectAfterSubmit()">
     <input type="email" name="email" placeholder="Your email address" required>
-    <button type="submit">Yes, I am 18+</button>
-    <div class="note">By continuing, you confirm you are 18 or older and agree to receive occasional updates.</div>
+    <button type="submit">Yes, Unlock Now</button>
+    <div class="note">By continuing, you confirm you are 18+ and agree to receive occasional updates.</div>
   </form>
 </div>
 
 <script>
-const TARGET_URL = "https://onlyfans.com/your-creator"; // ← Замени на свою ссылку
+const TARGET_URL = "https://onlyfans.com/ivankapeach_vip/c187"; // ← Вставь свою ссылку
 
 function redirectAfterSubmit() {
     setTimeout(() => {
